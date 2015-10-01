@@ -3,6 +3,10 @@
 	font-size:20px;
 }
 em{
+	color:blue;
+	font-weight:bold;
+}
+em em{
 	color:purple;
-	font-size:69px;
+	font-weight:bold;
 }
