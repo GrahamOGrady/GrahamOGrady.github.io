@@ -80,7 +80,7 @@ body{
 }
 #tuPac{
 	position: absolute;
-	top: 150;
+	top: 150px;
 	left: 5%;
 	width: 90%;
 	min-height: 100%;
