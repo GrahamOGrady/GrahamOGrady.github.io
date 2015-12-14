@@ -1,0 +1,124 @@
+body{
+	background-color: #0080ff;
+	background-repeat: repeat;
+}
+#tuPac{
+	position: absolute;
+	top: 200px;
+	left: 5%;
+	width: 90%;
+	min-height: 100%;
+	background: linear-gradient(rgba(200,200,200,0.05),#0080ff,darkblue);
+	z-index: 75;
+}
+.contentContainer{
+	z-index: 76;
+	padding: 10px;
+	position: relative;
+	border-top-left-radius: 3%;
+	border-top-right-radius: 7%;
+	background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.6));
+	left: 15%;
+	float: left;
+	min-width: 74%;
+	max-width: 74%;
+	text-color: #FFFFFF;
+	min-height: 50px;
+	clear: right;
+	height: 100%;
+}
+.videoContainer{
+	z-index: 77;
+	position: relative;
+	left: 3%;
+	top: 10;
+	background-color: #F0AA33;
+	max-width: 94%;
+	min-height: 225px;
+}
+.imageContainer{
+	z-index: 77;
+	position: relative;
+	left: 3%;
+	float: left;
+	top: 10;
+	text-align: center;
+	border-top-right-radius: 3%;
+	background: linear-gradient(rgba(200,200,200,0.70), rgba(200,200,200,0.50));
+	max-width: 94%;
+	min-width: 94%;
+	max-height: 90%;
+	
+}
+.imageContainer img{
+	z-index: 79;
+	position: relative;
+	padding: 10px;
+	float: left;
+	max-width: 450px;
+	max-height: 450px;
+	left: 25%;
+}
+.blogContainer{
+	z-index: 77;
+	position: relative;
+	left: 11%;
+	float: left;
+	top: 10;
+	border-top-right-radius: 3%;
+	opacity: .9;
+	background: linear-gradient(rgba(200,200,200,0.70), rgba(200,200,200,0.30));
+	max-width: 74%;
+	min-width: 74%;
+	max-height: 90%;
+}
+.blogContainer p, .blogContainer li{
+	font-family: "Comic Sans MS";
+	color: #DDDDDD;
+}
+.blogContainer h1{
+	text-size: 32px;
+	text-align: center;
+	color: #FFEEFF;
+	font-family: "Veranda";
+}
+.blogContainer h2{
+	text-size: 24px;
+	text-align: left;
+	color: #EEDDEE;
+	font-family: "Trajan";
+}
+.blogContainer h3{
+	text-size: 18px;
+	text-align: left;
+	color: #EEDDEE;
+	font-family: "Courier New";
+}
+.blogContainer .blogSideA{
+	z-index: 78;
+	position: relative;
+	left: 0;
+	float:left;
+	background: rgba(125,125,125, 0.75);
+	max-width: 40%;
+	min-width: 40%;
+	width: 40%;
+}
+.blogContainer .blogDividen{
+	z-index: 78;
+	position: absolute;
+	float: left;
+	left: 40%;
+	background: rgba(200,200,200,.9);
+	min-width: 20%;
+	max-width: 20%;
+	height: 100%;
+}
+.blogContainer .blogSideB{
+	z-index: 78;
+	position: relative;
+	background: rgba(125,125,125,0.75);
+	float:right;
+	min-width: 40%;
+	max-width: 40%;
+}

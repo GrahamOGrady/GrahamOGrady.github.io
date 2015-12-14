@@ -1,0 +1,94 @@
+.navItem{
+	position: fixed;
+	min-width: 50px;
+	min-height: 50px;
+	background-color: #FC0AFC;
+	opacity: .75;
+	z-index: 85;
+}
+.navButton{
+	position: relative;
+	padding: 0px;
+	left: 25px;
+	display: inline;
+	background-color: #FF4466;
+	opacity: 1;
+	max-width: 150px;
+	min-width: 100px;
+	min-height: 25px;
+	z-index: 95;
+}
+.navBar{
+	position: fixed;
+	background-color: #332233;
+	z-index: 90;
+}
+#horizLBar{
+	top: 0px;
+	border-bottom-left-radius: 25px;
+	left: 25px;
+	width: 80%;
+	height: 25px;
+	max-height: 25px;
+}
+#horizRBar{
+	bottom: 0px;
+	border-top-right-radius: 25px;
+	right: 25px;
+	width: 80%;
+	height: 25px;
+	max-height: 25px;
+}
+#vertLBar{
+	top: 25px;
+	border-top-right-radius: 25px;
+	left: 0px;
+	width: 25px;
+	max-width: 25px;
+	height: 80%;
+}
+#vertRBar{
+	bottom: 25px;
+	border-bottom-left-radius: 25px;
+	right: 0px;
+	width: 25px;
+	max-width: 25px;
+	height: 80%;
+}
+#banner{
+	position: absolute;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 200px;
+	height: 200px;
+	max-height: 200px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 32px;
+	z-index: 79;
+	color: white;
+	float: left;
+}
+#banner h1{
+	position: absolute;
+	text-align: center;
+	z-index: 80;
+	min-width: 100%;
+	float: left;
+}
+#leftNav{
+	top:0px;
+	border-bottom-right-radius: 50px;
+	background-color: #332244;
+	left:0px;
+}
+#rightNav{
+	right:0px;
+	border-top-left-radius: 50px;
+	background-color: #001122;
+	bottom:0px;
+}
